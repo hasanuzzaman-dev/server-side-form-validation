@@ -27,6 +27,7 @@ public class MyController {
 
         if (result.hasErrors()) {
             System.out.println(result);
+            return "form";
         }
 
         System.out.println(loginData);
